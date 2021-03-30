@@ -3,7 +3,9 @@
 Testing code to verify GPG without needing GPG, in Python. The start of
 this script is derived from [this gist](https://gist.github.com/mrmekon/1348090/7b09558e01300cdd3f7cb36973aa31427e787775)
 with an Apache license. The [original license](LICENSE.original) is included
-here along with the [LICENSE](LICENSE),
+here along with the [LICENSE](LICENSE). Other interesting libraries include:
+
+ - [gpgme](https://gist.github.com/tarekziade/4110897) using gpgme, which is C or C++ wrappers
 
 ## Test Environment
 
@@ -49,3 +51,5 @@ for it instead.
 ```bash
 $ python verify.py tacos.txt.gpg
 ```
+
+I've been able to load the packets, but I'm not sure what to do next.
